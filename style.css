@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://media.istockphoto.com/id/1696167872/photo/aerial-view-of-forest-at-sunset-on-the-background-of-mountains-in-dolomites.webp?s=1024x1024&w=is&k=20&c=sfRAnSjXlDxAAAMZ0ZtYG5GpetUCOqETKyVc0Oz6kyU=");
+  overflow: hidden;
+}
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+.clock {
+  display: flex;
+}
+.clock div {
+  margin: 5px;
+  position: relative;
+}
+.clock span {
+  width: 100px;
+  height: 80px;
+  background-color: slateblue;
+  opacity: 0.8;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.clock .text {
+  height: 30px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: darkblue;
+  opacity: 0.8;
+}
+
+.clock #ampm {
+  bottom: 0;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  font-size: 20px;
+  background-color: orangered;
+}
