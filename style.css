@@ -8,6 +8,8 @@ body {
   height: 100vh;
   background-image: url("https://media.istockphoto.com/id/1696167872/photo/aerial-view-of-forest-at-sunset-on-the-background-of-mountains-in-dolomites.webp?s=1024x1024&w=is&k=20&c=sfRAnSjXlDxAAAMZ0ZtYG5GpetUCOqETKyVc0Oz6kyU=");
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h2 {
   text-transform: uppercase;
